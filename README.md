@@ -57,4 +57,5 @@ git merge a</br>
 $ git checkout A</br>
 Switched to branch 'A'</br>
  2、将B分支上的message.html message.css等文件合并到当前分支（A分支）</br>
+ 这样是强行吧B上的下列文件和文件夹将当前分支覆盖 </br>
 $ git checkout B message.html message.css message.js other.js</br>
