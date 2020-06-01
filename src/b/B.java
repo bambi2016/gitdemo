@@ -1,7 +1,7 @@
 package b;
 
 public class B {
-    public void fun(){
-        System.out.println("master改了B");
+    public static void main(String[] args){
+        System.out.println("B改了B");
     }
 }
