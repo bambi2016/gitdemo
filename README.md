@@ -52,3 +52,9 @@ git push</br>
 git checkout master</br>
 git merge a</br>
 这样看来，至少需要三个分支</br>
+七：将B分支上的某个文件或文件夹合并到A分支</br>
+1、切换到A分支
+$ git checkout A
+Switched to branch 'A'
+ 2、将B分支上的message.html message.css等文件合并到当前分支（A分支）
+$ git checkout B message.html message.css message.js other.js
