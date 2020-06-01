@@ -22,13 +22,13 @@ git checkout master</br>
 git branch a</br>
 git branch b</br>
 git branch c</br>
-###三：修改b的代码</br>
+### 三：修改b的代码</br>
 git checkout b</br>
 修改代码增加一个类B，并增加方法一</br>
 git add B.java</br>
 git commit -a</br>
 git push -u origin b</br>
-###四： 1、切换到c，2、修改代码，3、提交，4、合并到master，5、合并到b</br>
+### 四： 1、切换到c，2、修改代码，3、提交，4、合并到master，5、合并到b</br>
 git checkout c</br>
 修改代码</br>
 git commit -a</br>
@@ -38,7 +38,7 @@ git merge c</br>
 git checkout a</br>
 git merge c</br>
 
-###五：修改b的代码合并到a</br>
+### 五：修改b的代码合并到a</br>
 git checkout b</br>
 修改代码，在B类上增加方法二</br>
 git commit -a</br>
@@ -48,11 +48,11 @@ git merge b</br>
 git commit -a</br>
 git push</br>
 
-###六：a合并到master</br>
+### 六：a合并到master</br>
 git checkout master</br>
 git merge a</br>
-总结，单纯用分支很难维护！</br>
-###七：将B分支上的某个文件或文件夹合并到A分支</br>
+### 总结，单纯用分支很难维护！</br>
+### 七：将B分支上的某个文件或文件夹合并到A分支</br>
 1、切换到A分支</br>
 $ git checkout A</br>
 Switched to branch 'A'</br>
