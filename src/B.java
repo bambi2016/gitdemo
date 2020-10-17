@@ -14,5 +14,8 @@ public void fun4(){
     public void fun5(){
         System.out.println("muster创建了第三个方法");
     }
+    public void fun6(){
+        System.out.println("muste在看视频");
+    }
 
 }
