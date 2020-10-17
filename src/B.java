@@ -8,7 +8,11 @@ public class B {
     public void fun3(){
         System.out.println("muster创建了一个方法");
     }
-    public void fun4(){
+public void fun4(){
         System.out.println("muster创建了第二个方法");
     }
+    public void fun5(){
+        System.out.println("muster创建了第三个方法");
+    }
+
 }
