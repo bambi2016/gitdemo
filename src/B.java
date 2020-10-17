@@ -8,4 +8,7 @@ public class B {
     public void fun3(){
         System.out.println("muster创建 origin 了一个方法");
     }
+    public void fun4(){
+        System.out.println("muster创建了第二个方法");
+    }
 }
