@@ -17,5 +17,7 @@ public void fun4(){
     public void fun6(){
         System.out.println("muste在看视频");
     }
-
+    public void fun7(){
+        System.out.println("muste在看视频3");
+    }
 }
