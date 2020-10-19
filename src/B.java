@@ -31,5 +31,6 @@ public void fun4(){
         System.out.println("muste在看视频10");
         System.out.println("a");
         System.out.println("b");
+        System.out.println("c");
     }
 }
