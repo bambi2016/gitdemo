@@ -26,4 +26,8 @@ public void fun4(){
     public void fun9(){
         System.out.println("muste在看视频9");
     }
+
+    public void fun10(){
+        System.out.println("muste在看视频10");
+    }
 }
