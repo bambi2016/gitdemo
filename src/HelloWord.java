@@ -6,5 +6,6 @@ public class HelloWord {
         System.out.println("初始化项目");
         System.out.println("master修改了代码");
         System.out.println("master 1");
+        System.out.println("g新来乍到，写了一行代码");
     }
 }
